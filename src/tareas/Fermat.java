@@ -15,10 +15,6 @@ public class Fermat {
 		System.out.println("Raiz de n: "+ x1);
 		System.out.println("x: "+ x);
 		long inicio = System.nanoTime();
-		//while(Math.sqrt(Math.pow(x, 2)-n) != (int)(Math.sqrt(Math.pow(x, 2)-n))) {
-		//	x=x+1;
-		//	contador++;
-		//};
 		while (true) {
 		    long temp = x * x - n;
 		    long yTemp = (long) Math.sqrt(temp);
